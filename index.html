@@ -5,7 +5,7 @@
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Home | TeQnia Laundry</title>
+		<title>Home | Teqnia Laundry</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,6 +42,8 @@
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 
+        <!-- <div id="preloader"></div> -->
+        
         <header class="header-style-3">
             <!-- Start top bar -->
             <div class="topbar-area topbar-3 fix hidden-xs">
@@ -234,7 +236,7 @@
                                         <div class="col-md-12">
                                             <!-- layer 1 -->
                                             <div class="layer-1">
-                                                <h1 class="title2">TeQnia <span class="color">success</span> in every projects</h1>
+                                                <h1 class="title2">Teqnia <span class="color">success</span> in every projects</h1>
                                             </div>
                                             <!-- layer 2 -->
                                             <div class="layer-2 ">
@@ -264,7 +266,7 @@
                                         <div class="col-md-12 col-sm-12">
                                             <!-- layer 1 -->
                                             <div class="layer-1">
-                                                <h1 class="title2"><span class="color">TeQnia</span> company provides affordable laundry services</h1>
+                                                <h1 class="title2"><span class="color">Teqnia</span> company provides affordable laundry services</h1>
                                             </div>
                                             <!-- layer 2 -->
                                             <div class="layer-2 ">
@@ -301,7 +303,7 @@
                     <div class="pricing-content">
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="price-btn">
-                                <a href="order-from.html">STANDARD PACKAGE</a>
+                                <a data-toggle="modal" data-target="#exampleModal">STANDARD PACKAGE</a>
                             </div>
                             <!-- <div class="table-list">
                                 <div class="top-price-inner">
@@ -325,7 +327,7 @@
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="price-btn">
-                                <a href="order-from.html">CHAIRMAN PACKAGE</a>
+                                <a data-toggle="modal" data-target="#chairman">CHAIRMAN PACKAGE</a>
                             </div>
                             <!-- <div class="table-list">
                                <span class="slugan">20% <br/>off</span>
@@ -350,7 +352,7 @@
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="price-btn">
-                                <a href="order-from.html">WASHERMAN PACKAGE</a>
+                                <a data-toggle="modal" data-target="#wash">WASHERMAN PACKAGE</a>
                             </div>
                             <!-- <div class="table-list">
                                 <div class="top-price-inner">
@@ -374,6 +376,84 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- standard -->
+                
+                      
+                    <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Standard Package (&#8358;5,000)</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>1. Wash 40kg of clothes</li><br>
+                                <li>2. Free pickup and delivery</li><br>
+                                <li>3. Washing, Ironing and Delivery</li><br>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            
+                            <button type="button" class="btn btn-success">Proceed</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="wash" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Washerman Package</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>1. Wash 100kg of clothes</li><br>
+                                    <li>2. Free pickup and delivery</li><br>
+                                    <li>3. Washing</li><br>
+                                    <li>4. No ironing & starching</li><br>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success">Proceed</button>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="modal fade" id="chairman" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Chairman Package</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>1. Wash 100kg of clothes.</li><br>
+                                    <li>2. Free pickup and delivery.</li><br>
+                                    <li>3. Washing, ironing, starching.</li><br>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success">Proceed</button>
+                            </div>
+                            </div>
+                        </div>
+                </div>
             </div>
         </div>
         <!-- End pricing table area -->
@@ -389,7 +469,7 @@
                             <div class="copyright">
                                 <p>
                                     Copyright © 2019
-                                    <a href="#">TeQnia</a> All Rights Reserved
+                                    <a href="#">Teqnia</a> All Rights Reserved
                                 </p>
                             </div>
                         </div>
