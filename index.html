@@ -33,9 +33,46 @@
 		<link rel="stylesheet" href="style.css">
 		<!-- responsive css -->
 		<link rel="stylesheet" href="css/responsive.css">
-
+        <style type="text/css">
+            .modal-dialog {
+              position:absolute;
+              top:50% !important;
+              transform: translate(0, -50%) !important;
+              -ms-transform: translate(0, -50%) !important;
+              -webkit-transform: translate(0, -50%) !important;
+              margin:auto 5%;
+              width:90%;
+              height:80%;
+              margin-top: 15px;
+            }
+            .modal-content {
+              min-height:100%;
+              position:absolute;
+              top:0;
+              bottom:0;
+              left:0;
+              right:0; 
+            }
+            .modal-body {
+              position:absolute;
+              top:45px; /** height of header **/
+              bottom:45px;  /** height of footer **/
+              left:0;
+              right:0;
+              overflow-y:auto;
+            }
+            .modal-footer {
+              position:absolute;
+              bottom:0;
+              left:0;
+              right:0;
+            }
+        </style>
 		<!-- modernizr css -->
 		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="text/javascript">
+        </script>
+
 	</head>
 		<body>
 		<!--[if lt IE 8]>
@@ -52,7 +89,7 @@
                         <div class=" col-md-8 col-sm-6">
                             <div class="topbar-left">
                                 <ul>
-                                    <li><a href="#"><i class="icon icon-map-marker"></i>60 Betty Pride Ajao Estate,Lagos.</a></li>
+                                    <li><a href="#"><i class="icon icon-map-marker"></i>26 Ewenla Street Idimu, Lagos.</a></li>
                                     <li><a href="https://wa.me/2347025304335"><i class="icon icon-phone"></i>Contact Us</a></li>
                                     <li><a href="#"><i class="icon icon-clock"></i>9:00 am - 7:00 pm (24/7)</a></li>
                                 </ul>  
@@ -384,24 +421,24 @@
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Standard Package (&#8358;5,000)</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <ul>
-                                <li>1. Wash 40kg of clothes</li><br>
-                                <li>2. Free pickup and delivery</li><br>
-                                <li>3. Washing, Ironing and Delivery</li><br>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            
-                            <button type="button" class="btn btn-success">Proceed</button>
-                        </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Standard Package <span style="color: #5cb85c;">(&#8358;5,000)</span></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>1. Wash 40kg of clothes</li><br>
+                                    <li>2. Free pickup and delivery</li><br>
+                                    <li>3. Washing, Ironing and Starchig</li><br>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                
+                                <a type="button" class="btn btn-success">Proceed</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -410,7 +447,7 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Washerman Package</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Washerman Package <span style="color: #5cb85c;">(&#8358;5,000)</span></h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
@@ -419,7 +456,7 @@
                                 <ul>
                                     <li>1. Wash 100kg of clothes</li><br>
                                     <li>2. Free pickup and delivery</li><br>
-                                    <li>3. Washing</li><br>
+                                    <li>3. Washing Alone</li><br>
                                     <li>4. No ironing & starching</li><br>
                                 </ul>
                             </div>
@@ -435,7 +472,7 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Chairman Package</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Chairman Package <span style="color: #5cb85c;">(&#8358;10,000)</span></h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
