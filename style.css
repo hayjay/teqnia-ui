@@ -1853,7 +1853,7 @@ span.dolar {
     float: right;
 }
 .header-area.header-area-3 {
-    background: #fff;
+    background:rgba(255, 255, 255, 0.5);
 }
 .header-area-3 .logo a {
     display: inline-block;
